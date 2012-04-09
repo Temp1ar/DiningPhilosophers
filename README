@@ -1,0 +1,11 @@
+Classic concurrency problem: dining philosophers. We need to show deadlock
+in such implementation of philosopher's algorithm.
+
+* think until the left fork is available; when it is, pick it up
+* think until the right fork is available; when it is, pick it up
+* eat
+* put the left fork down
+* put the right fork down
+* sleep
+* repeat from the start
+This file was modified by IntelliJ IDEA 11.1.1 for binding GitHub repository
